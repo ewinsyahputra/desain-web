@@ -68,3 +68,26 @@ li {
   margin-left: 20px;
   line-height: 80px;
 }
+
+/* dropdown */
+
+.inbox-dropdown {
+  background-color: #24292e;
+  width: 230px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  left: 1470px;
+  display: none;
+}
+
+.inbox-dropdown a {
+  display: block;
+  font-size: 22px;
+  text-align: center;
+  padding: 5px 0;
+}
+
+#btn-inbox:hover .inbox-dropdown {
+  display: block;
+}
