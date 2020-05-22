@@ -1,0 +1,100 @@
+.konten {
+  width: 70%;
+  margin: 60px auto;
+  display: flex;
+}
+
+.utama {
+  margin-bottom: 20px;
+}
+
+.utama img {
+  width: 500px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.thumb img {
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+
+.thumb {
+  border-top: 1px solid #ddd;
+}
+
+.sect {
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.ket {
+  margin-left: 30px;
+}
+
+.rating {
+  font-size: 19px;
+  font-weight: bold;
+  color: #444;
+}
+
+.rating i {
+  color: gold;
+}
+
+#harga,
+#info {
+  display: flex;
+  align-items: center;
+}
+
+#harga h3,
+#info h3 {
+  color: #666;
+  width: 200px;
+}
+
+#harga div,
+#info div {
+  color: #333;
+}
+
+
+
+.each-info {
+  padding: 0 20px;
+  border-right: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+#btn-cart {
+  padding: 20px 20px;
+  text-align: center;
+  background-color: rgb(209, 89, 89);
+  width: 300px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+
+
+/* deskripsi */
+
+.deskripsi {
+  width: 70%;
+  margin: auto;
+}
+
+.deskripsi h1 {
+  color: #333;
+  border-top: 2px solid #ddde;
+  border-bottom: 2px solid #ddde;
+  padding: 10px 0;
+}
+
+.deskripsi pre {
+  color: #666;
+  margin-top: 15px;
+}
