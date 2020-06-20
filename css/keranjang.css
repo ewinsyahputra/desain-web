@@ -1,0 +1,73 @@
+.konten {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.each {
+  border-bottom: 3px solid #ddd;
+  padding: 15px 0;
+}
+
+.each.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+#phead {
+  font-size: 23px;
+  color: #666;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+#btn-head {
+  color: #35b48e;
+  background-color: white;
+  border: none;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+#btn-head:hover {
+  cursor: pointer;
+}
+
+#btn-head:focus {
+  outline: 0;
+}
+
+.each .ket {
+  display: flex;
+}
+
+.each .ket img {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.each .ket h3 {
+  margin-left: 15px;
+}
+
+.ket div {
+  width: 100%;
+}
+
+.some-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 70px;
+}
+
+span {
+  font-size: 25px;
+  padding-left: 8px;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.fa-trash {
+  color: #777;
+}

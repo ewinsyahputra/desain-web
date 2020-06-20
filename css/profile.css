@@ -1,0 +1,51 @@
+.konten {
+  width: 70%;
+  margin: 40px auto;
+}
+
+.text-field {
+  width: 100%;
+  background-color: #fbfbfb;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-weight: normal !important;
+  margin-top: 5px;
+}
+
+.datebirth {
+  width: 100%;
+  display: block;
+}
+
+.rows {
+  width: auto;
+  max-width: none;
+  margin-bottom: 15px;
+}
+
+.date {
+  width: 25%;
+  float: left;
+  position: static;
+  z-index: auto;
+  display: block;
+  margin-bottom: 10px;
+  margin-right: 15px;
+}
+
+.gender {
+  float: none;
+}
+
+.gender1 {
+  margin-top: 8px;
+}
+
+.notif {
+  margin-top: 8px;
+}
+
+label {
+  margin-right: 3%;
+  padding-bottom: 100px;
+}
